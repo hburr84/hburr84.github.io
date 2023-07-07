@@ -117,6 +117,9 @@ p{
     li {
         font-size: 24px;
     }
+    .nav-li {
+        font-size:24px;
+    }
     .content{
         align-content:center;
         justify-content: center;
