@@ -1,7 +1,7 @@
 body {
-    background: #fefae0;
+    background: #8f9cbb;
     color: #283618;
-    padding: 10px;
+    padding: 0px;
     font-family: arial;
 }
 #all-contents{
@@ -11,7 +11,7 @@ body {
 
 /* navigation menu */
 nav{
-    background: #9a031e;
+    background: #223042;
     color: #fefae0;
     margin: 0 auto;
     margin-bottom: 20px;
@@ -42,6 +42,7 @@ a{
 main{
     background:#fefae0;
     display: flex;
+    border-radius: 15px;
 }
 .main-li{
     color:#283618;
@@ -52,14 +53,14 @@ main{
     padding: 10px;
 }
 .sidebar-img{
-    width: 350px;
+    width: 500px;
     border: 5px solid #283618;
     border-radius: 15px;
 }
 .content{
     flex: 1;
-    padding: 0px;
-    width: 425px;
+    padding: 5px;
+    width: 520px;
 }
 /* portfolio styles */
 #interests{
@@ -69,6 +70,7 @@ main{
 #portfolio-h1{
     color:#283618;
     font-family: "Lucida Handwriting";
+    margin-top: 20px;
 }
 h2, h3 {
     margin: 0px;
